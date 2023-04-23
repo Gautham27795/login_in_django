@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>My Template</title>
+    </head>
+    <body>
+    <ul>
+{% for name in name_list %}
+    <li>{{ name }}</li>
+{% endfor %}
+</ul>
+
+<table>
+{% for key, value in data.items %}
+    <tr>
+        <td>{{ key }}</td>
+        <td>{{ value }}</td>
+    </tr>
+{% endfor %}
+</table>
+
+
+
+
+    </body>
+</html>
